@@ -1,10 +1,11 @@
 <script>
-	let name = "Svelte";
+    //export used to make name assaignment available with (default) value
+	export let name = "default";
     
 </script>
 <h1>Hello {name}!</h1>
 
-<img src="/my-svelte-api-app/static/img/1.jpg" alt="test"/>
+<img src='https://www.google.com/logos/2010/pacman10-hp.png' alt="test"/>
 <style>
     h1 {
         color:red;
