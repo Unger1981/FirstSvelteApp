@@ -1,7 +1,10 @@
 <script>
 	import TestComponent from "./testComponent.svelte";
+	import Counter from "./counter.svelte";
+	let names =["Svelte","React","Vue"]
 
 </script>
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+
+<TestComponent name={names[0]}></TestComponent>
 <TestComponent></TestComponent>
+<Counter></Counter>
